@@ -13,7 +13,9 @@ public class MyFirstProgram {
         System.out.println("squeare with a side " + r.a +" and " + r.b + " = " + r.area());
 
         Point p = new Point (2, 4, 6, 9);
+        Point p1 = new Point (6, 11, 45, 7);
         System.out.println("The Distance between two points is " + p.distance());
+        System.out.println("The Distance between two points is " + p1.distance());
 
     }
 
